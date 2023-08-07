@@ -1,12 +1,12 @@
 
 <footer class="footer">
 	<hr/>
-&copy2018. Developed by Charles Kapiya Mukupa : BIT1510297.
+&copy2023. Developed by Godfrey Ojerheghan : BIT1510297.
 <br/>
 Online Voting System.
 <br/>
-Final Year Project 2018. University Of Lusaka
+CITN Ilorin Branch
 <br/>
-Contact: <a href="tel:+260979848064">+260 979-848064</a> | Email: <a href="mailto:charlesmukupa@gmail.com">charlesmukupa@gmail.com</a>
+Contact: <a href="tel:+2348033555883">+234 803-3555883</a> | Email: <a href="mailto:a1computersenterprises@gmail.com">a1computersenterprises@gmail.com</a>
 
 </footer>
