@@ -14,8 +14,8 @@
             <center>
                 <select onchange = "page(this.value)">
                 <option disabled selected>Select Candidate Group</option>
-                <option value = "candidates/pres.php">Vice President</option>
-                <option value = "candidates/vp.php">Deputy Vice President</option>
+                <option value = "candidates/pres.php">Vice Chairman</option>
+                <option value = "candidates/vp.php">Deputy Vice Chairman</option>
                 <option value = "candidates/ua.php">General Secretary</option>
                 <option value = "candidates/ss.php">Assistant General Secretary</option>
                 <option value = "candidates/ea.php">Financial Secretary</option>
