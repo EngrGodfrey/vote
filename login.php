@@ -31,7 +31,7 @@
                                 
                                 <div class="form-field">
 									<label for = "username">Member ID: </label><br/>
-										<input class="form-control" placeholder="Enter Student ID" name="idno" type="text" required = "required" autofocus>
+										<input class="form-control" placeholder="Enter Member ID" name="idno" type="text" required = "required" autofocus>
                                 </div>
 								
                                 <div class="form-field">
