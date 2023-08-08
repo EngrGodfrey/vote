@@ -2,6 +2,7 @@
 <!--
 A1 Computer Enterprises
 Ilorin
++2348033555883
 -->
 <html lang="en">
 
@@ -13,7 +14,7 @@ Ilorin
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>OVS | Online Voting System</title>
+    <title>A1 | e-Voting System</title>
 	<link rel = "stylesheet" type = "text/css" href = "css/myStyles.css" />
 	   <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
