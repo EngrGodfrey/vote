@@ -19,18 +19,18 @@
                         <select onchange = "page(this.value)">
                             <option value = "admin/index.php">System Admin</option>
                             <option value = "admin2/index.php">System User</option>
-                            <option selected disables>Student Voter</option> 
+                            <option selected disables>Member Voter</option> 
                         </select>
                         <p/>
                     </center>
                         <form role="form" method = "post" enctype = "multipart/form-data" class="index-form">
                             <div class="form-heading">
-                            <center>Student Login</center>
+                            <center>Member Login</center>
                             </div>
                             
                                 
                                 <div class="form-field">
-									<label for = "username">Student ID: </label><br/>
+									<label for = "username">Member ID: </label><br/>
 										<input class="form-control" placeholder="Enter Student ID" name="idno" type="text" required = "required" autofocus>
                                 </div>
 								
