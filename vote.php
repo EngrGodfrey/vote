@@ -9,11 +9,11 @@
 	
                     <div class="panel panel-primary">
                         <div class="panel-heading"><center>
-                            PRESIDENT</center>
+                            VICE CHAIRMAN</center>
                         </div>
                         <div class="panel-body" style = "background-color:; display:block;">
 						<?php
-							$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'President'") or die(mysqli_errno());
+							$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Vice Chairman'") or die(mysqli_errno());
 							while($fetch = $query->fetch_array())
 						{
 						?>
@@ -38,11 +38,11 @@
 	
                     <div class="panel panel-primary">
                         <div class="panel-heading"><center>
-							VICE PRESIDENT</center>
+							DEPUTY VICE CHAIRMAN</center>
                         </div>
                         <div class="panel-body" style = "background-color:;">
 						<?php
-							$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Vice President'") or die(mysqli_errno());
+							$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Deputy Vice Chairman'") or die(mysqli_errno());
 							while($fetch = $query->fetch_array()){
 						?>
 		<div id = "position">
@@ -64,11 +64,11 @@
 	<div class="col-lg-6">
 	  <div class="panel panel-primary">
             <div class="panel-heading">
-			<center>Union Advisor</center>
+			<center>General Secretary</center>
             </div>
             <div class="panel-body" style = "background-color:;">
 				<?php
-					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Union Advisor'") or die(mysqli_errno());
+					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'General Seretary'") or die(mysqli_errno());
 					while($fetch = $query->fetch_array())
 					{
 				?>
@@ -87,11 +87,11 @@
 	<div class="col-lg-6">
 	  <div class="panel panel-primary">
             <div class="panel-heading">
-			<center>Sports Secretary</center>
+			<center>Assistant General Secretary</center>
             </div>
             <div class="panel-body" style = "background-color:;">
 				<?php
-					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Sports Secretary'") or die(mysqli_errno());
+					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Assistant General Secretary'") or die(mysqli_errno());
 					while($fetch = $query->fetch_array())
 					{
 				?>
@@ -111,11 +111,11 @@
 	<div class="col-lg-6">
 	  <div class="panel panel-primary">
             <div class="panel-heading">
-			<center>Entertainment Advisor</center>
+			<center>Financial Secretary</center>
             </div>
             <div class="panel-body" style = "background-color:;">
 				<?php
-					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Entertainment Advisor'") or die(mysqli_errno());
+					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Financial Secretary'") or die(mysqli_errno());
 					while($fetch = $query->fetch_array())
 					{
 				?>
@@ -134,11 +134,11 @@
 	 <div class="col-lg-6">
 	  <div class="panel panel-primary">
             <div class="panel-heading">
-			<center>Treasurer</center>
+			<center>Honourary Treasurer</center>
             </div>
             <div class="panel-body" style = "background-color:;">
 				<?php
-					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Treasurer'") or die(mysqli_errno());
+					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Honourary Treasurer'") or die(mysqli_errno());
 					while($fetch = $query->fetch_array())
 					{
 				?>
@@ -157,11 +157,11 @@
 	<div class="col-lg-6">
 	  <div class="panel panel-primary">
             <div class="panel-heading">
-			<center>Vice Treasurer</center>
+			<center>Social / Welfare Secretary</center>
             </div>
             <div class="panel-body" style = "background-color:;">
 				<?php
-					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Vice Treasurer'") or die(mysqli_errno());
+					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Social / Welfare Secretary'") or die(mysqli_errno());
 					while($fetch = $query->fetch_array())
 					{
 				?>
@@ -180,11 +180,11 @@
 	<div class="col-lg-6">
 	  <div class="panel panel-primary">
             <div class="panel-heading">
-			<center>Secretary General</center>
+			<center>Legal Adviser</center>
             </div>
             <div class="panel-body" style = "background-color:;">
 				<?php
-					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Secretary General'") or die(mysqli_errno());
+					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Legal Adviser'") or die(mysqli_errno());
 					while($fetch = $query->fetch_array())
 					{
 				?>
@@ -192,29 +192,6 @@
 							<center><img src = "admin/<?php echo $fetch['img']?>" style ="border-radius:6px;" height = "150px" width = "150px" class = "img"></center>
 						<center><?php echo "<strong>Names: </strong>".$fetch['firstname']." ".$fetch['lastname']."<br/><strong>Gender: </strong> ".$fetch['gender']."<br/><strong>Level: </strong> ".$fetch['year_level']."<br/><strong>Party: </strong> ".$fetch['party']?></center>
 							<center><input type = "checkbox"  value = "<?php echo $fetch['candidate_id'] ?>" name = "sg_id" class = "sg">Give Vote</center>
-						</div>
-	
-				<?php
-					}
-				?>
-			</div>      
-        </div>
-     </div>
-	<div class="col-lg-6">
-	  <div class="panel panel-primary">
-            <div class="panel-heading">
-			<center>Transport & Accommodation</center>
-            </div>
-            <div class="panel-body" style = "background-color:;">
-				<?php
-					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Transport & Accommodation Secretary'") or die(mysqli_errno());
-					while($fetch = $query->fetch_array())
-					{
-				?>
-						<div id = "position">
-							<center><img src = "admin/<?php echo $fetch['img']?>" style ="border-radius:6px;" height = "150px" width = "150px" class = "img"></center>
-							<center><?php echo "<strong>Names: </strong>".$fetch['firstname']." ".$fetch['lastname']."<br/><strong>Gender: </strong> ".$fetch['gender']."<br/><strong>Level: </strong> ".$fetch['year_level']."<br/><strong>Party: </strong> ".$fetch['party']?></center>
-							<center><input type = "checkbox"  value = "<?php echo $fetch['candidate_id'] ?>" name = "tas_id" class = "tas">Give Vote</center>
 						</div>
 	
 				<?php
@@ -236,8 +213,8 @@
 				?>
 						<div id = "position">
 							<center><img src = "admin/<?php echo $fetch['img']?>" style ="border-radius:6px;" height = "150px" width = "150px" class = "img"></center>
-						<center><?php echo "<strong>Names: </strong>".$fetch['firstname']." ".$fetch['lastname']."<br/><strong>Gender: </strong> ".$fetch['gender']."<br/><strong>Level: </strong> ".$fetch['year_level']."<br/><strong>Party: </strong> ".$fetch['party']?></center>
-							<center><input type = "checkbox"  value = "<?php echo $fetch['candidate_id'] ?>" name = "ps_id" class = "ps">Give Vote</center>
+							<center><?php echo "<strong>Names: </strong>".$fetch['firstname']." ".$fetch['lastname']."<br/><strong>Gender: </strong> ".$fetch['gender']."<br/><strong>Level: </strong> ".$fetch['year_level']."<br/><strong>Party: </strong> ".$fetch['party']?></center>
+							<center><input type = "checkbox"  value = "<?php echo $fetch['candidate_id'] ?>" name = "tas_id" class = "tas">Give Vote</center>
 						</div>
 	
 				<?php
@@ -246,32 +223,7 @@
 			</div>      
         </div>
      </div>
-
-
-
-
-     <div class="col-lg-6">
-	  <div class="panel panel-primary">
-            <div class="panel-heading">
-			<center>Academics Secretary</center>
-            </div>
-            <div class="panel-body" style = "background-color:;">
-				<?php
-					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'Academics Secretary'") or die(mysqli_errno());
-					while($fetch = $query->fetch_array())
-					{
-				?>
-						<div id = "position">
-							<center><img src = "admin/<?php echo $fetch['img']?>" style ="border-radius:6px;" height = "150px" width = "150px" class = "img"></center>
-						<center><?php echo "<strong>Names: </strong>".$fetch['firstname']." ".$fetch['lastname']."<br/><strong>Gender: </strong> ".$fetch['gender']."<br/><strong>Level: </strong> ".$fetch['year_level']."<br/><strong>Party: </strong> ".$fetch['party']?></center>
-							<center><input type = "checkbox"  value = "<?php echo $fetch['candidate_id'] ?>" name = "as_id" class = "as">Give Vote</center>
-						</div>
-	
-				<?php
-					}
-				?>
-			</div>      
-        </div>
+     </div>
      </div>
      <hr/>
 		
@@ -387,28 +339,6 @@ include ('footer.php');?>
 			else
 				{
 					$(".tas").removeAttr("disabled");
-				}
-			});
-			$(".ps").on("change", function(){
-				if($(".ps:checked").length == 1)
-				{
-					$(".ps").attr("disabled", "disabled");
-					$(".ps:checked").removeAttr("disabled");
-				}
-			else
-				{
-					$(".ps").removeAttr("disabled");
-				}
-			});
-			$(".as").on("change", function(){
-				if($(".as:checked").length == 1)
-				{
-					$(".as").attr("disabled", "disabled");
-					$(".as:checked").removeAttr("disabled");
-				}
-			else
-				{
-					$(".as").removeAttr("disabled");
 				}
 			});
 		});	
