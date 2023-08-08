@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <!--
-Author: Charles Kapiya Mukupa
-Year: 2018
-Profession: BSc. Information Systems Technology 
-University of Lusaka
+A1 Computer Enterprises
+Ilorin
 -->
 <html lang="en">
 
