@@ -11,7 +11,7 @@
     	<img src="img/img1.jpg" width="40%" hieght="40%"/>
     </div>
     <div class="union-infor">
-    	Rules for the election are stated here.
+    	Kindly vote today!
     </div>
 
 
