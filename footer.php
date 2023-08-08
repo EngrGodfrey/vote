@@ -1,11 +1,9 @@
 
 <footer class="footer">
 	<hr/>
-&copy2023. Developed by Godfrey Ojerheghan : BIT1510297.
+&copy2023. Developed by A1 Computers Enterprises
 <br/>
-Online Voting System.
-<br/>
-CITN Ilorin Branch
+e-Voting System
 <br/>
 Contact: <a href="tel:+2348033555883">+234 803-3555883</a> | Email: <a href="mailto:a1computersenterprises@gmail.com">a1computersenterprises@gmail.com</a>
 
