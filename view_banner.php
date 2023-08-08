@@ -14,7 +14,7 @@ a:hover{
 
 </style>
             <div class="text-center text-success animateuse" style="background-color:rgba(0, 100, 0, 1); font-size:25px;text-align:center; margin-top:-10px; padding-top:20px;">
-                <a style="color:white; font-weight:bold; font-size:30px;">Student Union Elections 2019</a>
+                <a style="color:white; font-weight:bold; font-size:30px;">CITN Ilorin & District Society Elections 2023</a>
               
         <nav class="nav-menue">
             <ul style = "color">
