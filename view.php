@@ -15,17 +15,15 @@
             <center>
                 <select onchange = "page(this.value)">
                 <option disabled selected>Select Candidate Group</option>
-                <option value = "candidates/pres.php">President</option>
-                <option value = "candidates/vp.php">Vice President</option>
-                <option value = "candidates/ua.php">Union Advisor</option>
-                <option value = "candidates/ss.php">Sports Secretary</option>
-                <option value = "candidates/ea.php">Entertainment Advisor</option>
-                <option value = "candidates/tr.php">Treasurer</option>
-                <option value = "candidates/vtr.php">Vice Treasurer</option>
-                <option value = "candidates/sg.php">Secretary General</option>
-                <option value = "candidates/ta.php">Transport & Accommodation</option>
-                <option value = "candidates/pb.php">Publicity</option>
-                <option value = "candidates/ac.php">Academics</option>
+                <option value = "candidates/pres.php">Vice Chairman</option>
+                <option value = "candidates/vp.php">Deputy Vice Chairman</option>
+                <option value = "candidates/ua.php">General Secretary</option>
+                <option value = "candidates/ss.php">Assistant General Secretary</option>
+                <option value = "candidates/ea.php">Financial Secretary</option>
+                <option value = "candidates/tr.php">Honourary Treasurer</option>
+                <option value = "candidates/vtr.php">Social / Welfare Secretary</option>
+                <option value = "candidates/sg.php">Legal Adviser</option>
+                <option value = "candidates/ta.php">Publicity Secretary</option>
                 </select>
             </center>
 
